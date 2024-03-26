@@ -10,5 +10,7 @@ namespace WebApiGerenciador.DataContext
         }
 
         public DbSet<ColaboradoresModel> Colaboradores { get; set;}
+
+        public DbSet<PontoModel> Ponto { get; set;}
     }
 }
